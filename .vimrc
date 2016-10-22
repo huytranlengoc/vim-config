@@ -9,6 +9,8 @@ set modifiable
 set noswapfile
 set nocompatible
 set smartindent
+set showcmd
+set showmode
 syntax on
 syntax enable
 filetype plugin indent on
@@ -64,3 +66,13 @@ nnoremap <F5> :NERDTreeFind<CR>
 nmap <F8> :TagbarToggle<CR>
 set pastetoggle=<F2>
 
+" setting for tabs
+nnoremap th :tabfirst<CR>
+nnoremap tj :tabnext<CR>
+nnoremap tk :tabprev<CR>
+nnoremap tl :tablast<CR>
+nnoremap tt :tabedit<CR>
+nnoremap tn :tabnew<CR>
+nnoremap tm :tabm<Space>
+nnoremap td :tabclose<CR>
+nnoremap to :tabonly<CR>
