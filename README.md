@@ -14,8 +14,9 @@
 # Configuring vim and tmux
 
 > git clone https://github.com/huytranlengoc/vim-config.git  
+> cd vim-config  
 > git submodule update --init --recursive  
-> mv vim-config/.* ~/  
+> mv .* ~/  
 > cd ~/.vim/bundle/YouCompleteMe  
 > ./install.py --all  
 
