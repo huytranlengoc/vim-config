@@ -1,3 +1,7 @@
+This config was moved to neovim, check here to final setting: https://github.com/huytranlengoc/dotfiles
+
+***
+
 # Awesome Vim
 ![basic](https://cloud.githubusercontent.com/assets/11662835/19621612/9b2a4ec4-98bf-11e6-8f68-1f46d28e2bb0.png)
 
